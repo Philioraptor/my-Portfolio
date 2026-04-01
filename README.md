@@ -1,20 +1,50 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Dhruv Mishra - Frontend Engineer Portfolio
 
-# Run and deploy your AI Studio app
+Welcome to the repository for my personal portfolio! This project showcases my skills in building premium, responsive, and high-performance web applications.
 
-This contains everything you need to run your app locally.
+## 🚀 Live Preview
+You can run this project locally to explore the architecture, animations, and design system. 
 
-View your app in AI Studio: https://ai.studio/apps/71d591b8-99f0-4b7a-a303-2a76c9e27e96
+## 🛠️ Tech Stack
+This project was built from the ground up prioritizing speed, modern aesthetics, and maintainability.
+- **Framework:** React 19
+- **Build Tool:** Vite 6
+- **Styling:** Tailwind CSS v4 (Glassmorphism, Gradients)
+- **Animations:** framer-motion (Motion for React)
+- **Icons:** Lucide React
 
-## Run Locally
+## 🚀 Getting Started
 
-**Prerequisites:**  Node.js
+Follow these steps to run the application locally on your machine:
 
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed (version 18+ recommended).
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Philioraptor/my-Portfolio.git
+   cd my-Portfolio
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 📬 Contact Options
+Reach out if you'd like to collaborate or chat about frontend engineering!
+- [LinkedIn Profile](https://www.linkedin.com/in/dhruv-mishra-5b0001338/)
+- [GitHub Profile](https://github.com/Philioraptor)
+- Email: dhruvm05062004@gmail.com
