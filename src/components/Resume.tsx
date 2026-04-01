@@ -56,9 +56,13 @@ export default function Resume() {
               </ul>
             </div>
 
-            <button className="w-full py-4 bg-primary text-white rounded-2xl font-bold flex items-center justify-center gap-2 hover:bg-primary/90 transition-all hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-primary/20">
+            <a 
+              href="/resume.pdf" 
+              download="Dhruv_Mishra_Resume.pdf"
+              className="w-full py-4 bg-primary text-white rounded-2xl font-bold flex items-center justify-center gap-2 hover:bg-primary/90 transition-all hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-primary/20"
+            >
               <Download size={20} /> Download Full Resume
-            </button>
+            </a>
             
             <p className="text-xs text-center text-muted-foreground italic">
               * PDF Viewer may not load in all iframe environments.
