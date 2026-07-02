@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { useInView } from 'react-intersection-observer';
-import { ExternalLink, Github, Sparkles, Brain, Layout } from 'lucide-react';
+import { ExternalLink, Github, Sparkles, Brain, Layout, Radio } from 'lucide-react';
 
 const featuredProjects = [
   {
@@ -25,6 +25,17 @@ const featuredProjects = [
     tags: ['React', 'Tailwind', 'Gamification'],
     icon: <Sparkles className="text-secondary" />,
     image: 'https://picsum.photos/seed/cyber/800/450',
+  },
+  {
+    title: 'DOM.fm (NodeRadio)',
+    problem: 'Chrome Manifest V3 CSP and autoplay rules block execution of Web Audio and machine learning libraries (Magenta/TensorFlow) in background service workers.',
+    solution: 'Architected a split audio/sandbox environment running AI music models in a secure sandbox frame controlled via messaging from background service workers.',
+    impact: 'Translates site layout metadata into continuous, infinite generative soundtrack streams based on the semantic vibe of any visited website.',
+    link: 'https://github.com/Philioraptor/NodeRadio',
+    github: 'https://github.com/Philioraptor/NodeRadio',
+    tags: ['Chrome Extension (MV3)', 'Magenta.js', 'TensorFlow.js', 'Web Audio API'],
+    icon: <Radio className="text-accent" />,
+    image: 'https://picsum.photos/seed/radio/800/450',
   },
 ];
 

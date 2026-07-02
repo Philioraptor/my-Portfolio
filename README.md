@@ -32,13 +32,19 @@ Here are the key projects featured in my portfolio:
 - **Impact:** Transforming dry security theory into an interactive, hacker-themed experience.
 - **Repo:** [CYBERHEIST](https://github.com/Philioraptor/CYBERHEIST)
 
-### 3. [Scout AI](https://scout-ai-five.vercel.app/companies)
+### 3. [DOM.fm (NodeRadio)](https://github.com/Philioraptor/NodeRadio)
+- **Problem:** Chrome Manifest V3 CSP and autoplay rules block execution of Web Audio and machine learning libraries in background service workers.
+- **Solution:** Architected a split audio/sandbox environment running AI music models in a secure sandbox frame controlled via messaging from background service workers.
+- **Impact:** Translates site layout metadata into continuous, infinite generative soundtrack streams based on the semantic vibe of any visited website.
+- **Repo:** [NodeRadio](https://github.com/Philioraptor/NodeRadio)
+
+### 4. [Scout AI](https://scout-ai-five.vercel.app/companies)
 - **Problem:** Discovering detailed company insights usually requires manual data aggregation.
 - **Solution:** Engineered a data exploration dashboard for browsing company profiles and related analytics.
 - **Impact:** Streamlines company research with a clean, responsive data presentation layer.
 - **Repo:** [Scout-AI](https://github.com/Philioraptor/Scout-AI)
 
-### 4. [Sanjeevani AI](https://maroomuze.vercel.app/)
+### 5. [Sanjeevani AI](https://maroomuze.vercel.app/)
 - **Problem:** Access to structured medical or health-related assistance is often fragmented.
 - **Solution:** Created an AI-based assistant interface offering clear guidance and a user-friendly design.
 - **Impact:** Improves user experience and accessibility for AI-driven health support paradigms.
