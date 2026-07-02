@@ -10,7 +10,7 @@ const featuredProjects = [
     solution: 'Developed an AI-powered SaaS platform that extracts text and generates structured summaries instantly.',
     impact: 'Saves users hours of reading time, increasing productivity and learning efficiency.',
     link: 'https://cloud-computing-project-9p77.onrender.com/',
-    github: '#', // Add actual GitHub link if available
+    github: 'https://github.com/Philioraptor/Cloud_Computing_Project',
     tags: ['React', 'Node.js', 'AWS S3', 'Gemini API'],
     icon: <Brain className="text-primary" />,
     image: 'https://picsum.photos/seed/locker/800/450',
@@ -21,7 +21,7 @@ const featuredProjects = [
     solution: 'Built a gamified cybersecurity platform featuring practical encryption missions and leaderboards.',
     impact: 'Increased engagement by transforming dry theory into an interactive hacker-themed experience.',
     link: 'https://cyberheist.onrender.com/',
-    github: '#', // Add actual GitHub link if available
+    github: 'https://github.com/Philioraptor/CYBERHEIST',
     tags: ['React', 'Tailwind', 'Gamification'],
     icon: <Sparkles className="text-secondary" />,
     image: 'https://picsum.photos/seed/cyber/800/450',
@@ -35,7 +35,7 @@ const aiProjects = [
     solution: 'Created an AI-based assistant interface offering clear guidance and a user-friendly design.',
     impact: 'Improves user experience and accessibility for AI-driven health support paradigms.',
     link: 'https://maroomuze.vercel.app/',
-    github: '#',
+    github: 'https://github.com/Philioraptor',
     tags: ['AI', 'UI/UX', 'Product'],
   },
   {
@@ -44,7 +44,7 @@ const aiProjects = [
     solution: 'Engineered a data exploration dashboard for browsing company profiles and related analytics.',
     impact: 'Streamlines company research with a clean, responsive data presentation layer.',
     link: 'https://scout-ai-five.vercel.app/companies',
-    github: '#',
+    github: 'https://github.com/Philioraptor/Scout-AI',
     tags: ['Data', 'AI', 'Insights'],
   },
 ];

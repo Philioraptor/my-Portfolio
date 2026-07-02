@@ -20,9 +20,9 @@ export default function About() {
           >
             <div className="aspect-square rounded-3xl overflow-hidden glass p-2">
               <img
-                src="https://picsum.photos/seed/dhruv/800/800"
+                src="https://avatars.githubusercontent.com/u/125127954?v=4"
                 alt="Dhruv Mishra"
-                className="w-full h-full object-cover rounded-2xl opacity-80 grayscale hover:grayscale-0 transition-all duration-500"
+                className="w-full h-full object-cover rounded-2xl opacity-90 hover:opacity-100 transition-all duration-500"
                 referrerPolicy="no-referrer"
               />
             </div>
