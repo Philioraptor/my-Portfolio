@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { useInView } from 'react-intersection-observer';
-import { ExternalLink, Github, Sparkles, Brain, Layout, Radio } from 'lucide-react';
+import { ExternalLink, Github, Sparkles, Brain, Layout, Radio, ShoppingCart, Building2, Shield, TrendingUp, FlaskConical } from 'lucide-react';
 
 const featuredProjects = [
   {
@@ -37,6 +37,17 @@ const featuredProjects = [
     icon: <Radio className="text-accent" />,
     image: 'https://picsum.photos/seed/radio/800/450',
   },
+  {
+    title: 'AI Indic Shopping Assistant',
+    problem: 'Most AI shopping tools search a pre-loaded product list and don\'t support Hindi or Hinglish queries.',
+    solution: 'Built a real-time multimodal AI assistant that understands Hindi, English, and Hinglish, then live-searches Amazon India, Flipkart & Myntra to surface actual products.',
+    impact: 'Supports image-based search, auto-retries across 4 Gemini models, and delivers direct buy links — making e-commerce accessible in native Indian languages.',
+    link: 'https://github.com/Philioraptor/AI-Indic-Shopping-Assistant',
+    github: 'https://github.com/Philioraptor/AI-Indic-Shopping-Assistant',
+    tags: ['Python', 'Streamlit', 'Gemini API', 'Multimodal AI', 'DuckDuckGo Search'],
+    icon: <ShoppingCart className="text-primary" />,
+    image: 'https://picsum.photos/seed/indic/800/450',
+  },
 ];
 
 const aiProjects = [
@@ -57,6 +68,51 @@ const aiProjects = [
     link: 'https://scout-ai-five.vercel.app/companies',
     github: 'https://github.com/Philioraptor/Scout-AI',
     tags: ['Data', 'AI', 'Insights'],
+  },
+  {
+    title: 'CEO Daily',
+    problem: 'Strategic decision-making skills are hard to practice without real business exposure.',
+    solution: 'Built a gamified, mobile-first CEO simulator that presents 3 high-stakes business scenarios daily, tracking company valuation, streaks, and a Redis-powered global leaderboard.',
+    impact: 'Players rank from Liquidator to Visionary CEO — making business thinking engaging and competitive.',
+    link: 'https://github.com/Philioraptor/CEO-Daily',
+    github: 'https://github.com/Philioraptor/CEO-Daily',
+    tags: ['Next.js 15', 'TypeScript', 'Firebase', 'Redis', 'Tailwind CSS'],
+  },
+  {
+    title: 'CivicLens',
+    problem: 'Citizens lack visibility into government projects, infrastructure schemes, and local governance happening near them.',
+    solution: 'Built a location-aware civic transparency platform using geo-fencing and AI-generated summaries to surface hyper-local government data.',
+    impact: 'Makes governance visible and locally relevant — empowering citizens with real-time civic information.',
+    link: 'https://github.com/Philioraptor/CIVICLENS_UNSTOP',
+    github: 'https://github.com/Philioraptor/CIVICLENS_UNSTOP',
+    tags: ['React', 'Node.js', 'MongoDB', 'Leaflet Maps', 'JWT Auth'],
+  },
+  {
+    title: 'SAFECAST',
+    problem: 'Construction site risks are identified reactively — after accidents or delays have already occurred.',
+    solution: 'Developed a predictive safety-first construction field management platform that identifies risks before they impact timelines or worker safety.',
+    impact: 'Puts safety front and centre in field management — reducing reactive incident response on live job sites.',
+    link: 'https://github.com/Philioraptor/SAFECAST',
+    github: 'https://github.com/Philioraptor/SAFECAST',
+    tags: ['React', 'Predictive Analytics', 'Safety Tech', 'Full-Stack'],
+  },
+  {
+    title: 'AssetVault',
+    problem: 'Tracking and managing digital or physical assets across projects lacks a centralised, clean interface.',
+    solution: 'Built AssetVault as a personal asset management solution with a structured, organised dashboard.',
+    impact: 'Provides a single source of truth for tracking owned assets efficiently.',
+    link: 'https://github.com/Philioraptor/AssetVault',
+    github: 'https://github.com/Philioraptor/AssetVault',
+    tags: ['React', 'Dashboard', 'Asset Management'],
+  },
+  {
+    title: 'RIFT — Precision Medicine',
+    problem: 'Precision medicine algorithms are complex, opaque, and difficult to validate without a structured framework.',
+    solution: 'Implemented a precision medicine algorithm (RIFT) for data-driven patient profiling and treatment pathway analysis.',
+    impact: 'Demonstrates cross-domain engineering — applying algorithmic thinking to biomedical research challenges.',
+    link: 'https://github.com/Philioraptor/RIFT-Precision_Medicine_Algo',
+    github: 'https://github.com/Philioraptor/RIFT-Precision_Medicine_Algo',
+    tags: ['Python', 'Algorithms', 'Precision Medicine', 'Research'],
   },
 ];
 
