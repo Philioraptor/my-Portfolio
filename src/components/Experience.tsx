@@ -7,7 +7,7 @@ const experiences = [
   {
     role: 'Frontend & UI/UX Intern',
     company: 'Tech Startup Internship',
-    period: 'Sep 2023 – Dec 2023',
+    period: 'Sep 2025 – Dec 2025',
     points: [
       'Designed critical user flows and detailed wireframes',
       'Built interactive, high-fidelity UI prototypes in Figma',
