@@ -57,8 +57,8 @@ export default function Resume() {
             </div>
 
             <a 
-              href="/resume.pdf" 
-              download="Dhruv_Mishra_Resume.pdf"
+              href="/Dhruv_Mishra_Resume_2025.pdf" 
+              download="Dhruv_Mishra_Resume_2025.pdf"
               className="w-full py-4 bg-primary text-white rounded-2xl font-bold flex items-center justify-center gap-2 hover:bg-primary/90 transition-all hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-primary/20"
             >
               <Download size={20} /> Download Full Resume
@@ -78,7 +78,7 @@ export default function Resume() {
             {/* Real iframe embedding the resume */}
             <div className="absolute inset-0 p-4">
               <iframe 
-                src="/resume.pdf" 
+                src="/Dhruv_Mishra_Resume_2025.pdf" 
                 className="w-full h-full border-none rounded-2xl bg-white shadow-inner" 
                 title="Dhruv Mishra Resume"
               /> 
