@@ -58,9 +58,15 @@ export default function Contact() {
                 <div className="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary">
                   <Mail size={24} />
                 </div>
-                <div>
+              <div>
                   <p className="text-sm text-muted-foreground">Email Me</p>
-                  <p className="font-bold">dhruvm05062004@gmail.com</p>
+                  <a
+                    href="mailto:dhruvm05062004@gmail.com"
+                    className="inline-flex items-center gap-2 mt-1 px-4 py-2 rounded-xl bg-primary/10 border border-primary/20 text-primary font-semibold text-sm hover:bg-primary/20 hover:scale-[1.03] transition-all duration-200"
+                  >
+                    <Mail size={16} />
+                    Send an Email
+                  </a>
                 </div>
               </div>
               
